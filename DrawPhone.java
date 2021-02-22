@@ -11,9 +11,8 @@ DrawPhone(){
 }
 //frame contents
 public void paint(Graphics g){
-    //white canvas
-    g.setColor(Color.white);
-    g.fillRect(10,30,378,355);
+	//background;
+	this.setBackground(new Color(255,50,50));
     //rounded rectangle main body
     g.setColor(Color.black);
     g.fillRoundRect(110,45,150,240,30,30);
@@ -38,6 +37,11 @@ public void paint(Graphics g){
     g.drawOval(155,86,10,20);
     g.setColor(Color.white);
     g.drawOval(168,86,10,20);
+    //text on screen
+    Font f=new Font("Arial",Font.BOLD,14);
+    g.setFont(f);
+    g.setColor(Color.white);
+    g.drawString("Arya's Phone",128,126);
     //app icons 
     g.setColor(Color.green);
     g.fillOval(130,245,16,16);
