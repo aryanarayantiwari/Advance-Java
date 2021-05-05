@@ -20,7 +20,7 @@ throws ServletException,IOException
             rd=request.getRequestDispatcher("fwdfaculty");
             rd.forward(request,response);}
             else{
-            out.println("<p><h1 style=\"color:white; background-color:red text-align:center padding:0 2rem;\">Incorrect Login ID/Password ID</h1></p>");
+            out.println("<p><h1 style=\"color:white; background-color:red; text-align:center; font-size:1rem; font-weight:bold; padding:0 2rem;\"">Incorrect Login ID/Password ID</h1></p>");
             rd=request.getRequestDispatcher("/index.html");
                     rd.include(request,response);}
 }
