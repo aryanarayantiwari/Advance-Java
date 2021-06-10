@@ -17,12 +17,12 @@ class objectiveQuestions{
 	a5=new ButtonGroup();
 	
 	q1=new JLabel("1.Inventor of Java is ?");
-  a=new JRadioButton("James Gosling");
+        a=new JRadioButton("James Gosling");
 	b=new JRadioButton("Dennis Ritchie");
 	a1.add(a);
 	a1.add(b);
 
-  q2=new JLabel("2.Java was released in the year ?");
+        q2=new JLabel("2.Java was released in the year ?");
 	c=new JRadioButton("1990");
 	d=new JRadioButton("1995");
 	a2.add(c);
